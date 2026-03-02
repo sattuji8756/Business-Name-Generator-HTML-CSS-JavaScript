@@ -1,0 +1,70 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(96deg, #0974ff, #031d25);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 20px;
+  min-height: 100vh;
+}
+
+.card {
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: #fff;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+button {
+  color: #ffffff;
+  background-color: #1d77df;
+  margin: 20px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #c5ecae;
+  border-style: none;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+.copy {
+  background-color: #52c430;
+}
+.download {
+  background: #f34d4d;
+  color: white;
+}
+.download:hover {
+  background-color: #cf1919;
+}
+.generate:hover {
+  background-color: #1a3cd3;
+}
+.copy:hover {
+  background-color: #4aa82e;
+}
+
+#name {
+  color: red;
+  font-size: 29px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+h1 {
+  color: rgb(58, 58, 58);
+}
+.fade {
+  transform: scale(1.1);
+  opacity: 0.2;
+}
+canvas {
+  display: none;
+}
