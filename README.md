@@ -64,6 +64,6 @@ Business-Name-Generator/
 ## 👨‍💻 Author
 
 **Satyendra Kumar**
-Full Stack Developer
+Junior Frontend Developer
 
 
